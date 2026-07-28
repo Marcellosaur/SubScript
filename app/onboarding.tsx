@@ -4,12 +4,12 @@ import { SafeAreaView as RNSafeAreaView } from "react-native-safe-area-context";
 import { styled } from "nativewind"
 const SafeAreaView = styled(RNSafeAreaView)
 
-const settings = () => {
+const Onboarding = () => {
   return (
-    <SafeAreaView className="flex-1 items-center justify-center bg-background">
-      <Text>settings</Text>
-    </SafeAreaView>
+    <View>
+      <Text>Onboarding</Text>
+    </View>
   )
 }
 
-export default settings
+export default Onboarding
